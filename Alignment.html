@@ -1,0 +1,118 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+    <style>
+        * {
+            /* background-color: aquamarine; */
+            box-sizing: border-box;
+
+        }
+
+        body {
+            font-family: 'Alkatra', cursive;
+        }
+
+        .container {
+            background-color: aquamarine;
+            width: 900px;
+            border: 3px solid purple;
+            margin: auto
+                /* with the help of margin auto our boxes will come at centre */
+
+        }
+
+        .item {
+
+            border: 3px solid gray;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: rgb(222, 193, 249);
+        }
+
+        #fruit {
+            float: left;
+            width: 48%;
+        }
+
+        #computer {
+            float: right;
+            width: 48%;
+        }
+
+        #statonary {
+            clear: both;
+            /* this means ki koi bhi element jo float left hai vo mere uper allowed nhi hai means no overlap */
+            /* float: left; */
+            width: 100%;
+        }
+
+        p,
+        h3 {
+            text-align: right;
+            text-align: left;
+            /* text-align: center; */
+            /* text-align: justify; */
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to my store</h1>
+
+        <div id="fruit" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis doloribus
+                temporibus et consequuntur repudiandae quaerat porro ex impedit, reprehenderit recusandae quo
+                consequatur quos fuga eius veniam, illum necessitatibus. Sed nemo incidunt asperiores dolorum.lorem34
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt fugit non quas labore, quasi sit
+                architecto ipsa dolorum. Provident reprehenderit veritatis beatae aut deserunt quos asperiores
+                dignissimos similique reiciendis, accusamus quibusdam officiis odit repellat.</p>
+
+        </div>
+        <div id="computer" class="item">
+            <h3>computer</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. A sequi incidunt
+                commodi recusandae magnam voluptatibus corporis rem autem natus minus magni exercitationem, voluptas
+                consectetur repellat. Maxime distinctio possimus voluptates eum, quisquam at fugit!lorem Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Asperiores, assumenda. Totam, explicabo necessitatibus,
+                suscipit, quia enim in expedita non amet aspernatur magni quasi doloribus libero numquam ea
+                voluptatibus! Veniam iusto illo laudantium delectus adipisci. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. At a, mollitia enim eum ullam earum voluptatum doloribus pariatur eveniet saepe
+                obcaecati cupiditate ab cumque vitae corrupti, impedit, aspernatur reprehenderit suscipit voluptate
+                optio consequuntur repudiandae soluta nemo! Officiis repudiandae officia ut sit. Reprehenderit id,
+                autem, cum tempora voluptates perferendis laudantium impedit suscipit voluptatem magnam quos accusamus?
+            </p>
+
+        </div>
+        <div id="statonary" class="item">
+            <h3>statonary</h3>
+            <p id="statonarypara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem
+                harum possimus repellendus ducimus? Necessitatibus quo quam inventore accusamus ipsum possimus officia
+                impedit at repudiandae? Reprehenderit quidem earum ipsam hic maiores? Soluta, facilis ad! lorem34</p>
+
+
+        </div>
+
+        <div id="glasses" class="item">
+            <h3>glasses</h3>
+            <p id="glassespara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem
+                harum possimus repellendus ducimus? Necessitatibus quo quam inventore accusamus ipsum possimus officia
+                impedit at repudiandae? Reprehenderit quidem earum ipsam hic maiores? Soluta, facilis ad! lorem34</p>
+
+
+        </div>
+</body>
+
+</html>
